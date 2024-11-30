@@ -1,6 +1,29 @@
-button{
-    color: black;
-    font-size: 2em;
-    border-radius: 15px;
+.container {
     text-align: center;
-}
+  }
+  button {
+    background-color: navy;
+    border-radius: 15px;
+    border: none;
+    color: lightblue;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    margin-top:3%;
+  }
+  body{
+    background-color: black;
+  }
+  .text-container {
+    display: block;
+    text-align: center;
+    border: solid;
+    width: 50%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+  }
